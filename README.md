@@ -1,6 +1,6 @@
 # shopping-cart
 
-- The followsing users are saved into database at app start
+- The followsing users are saved into database at app start (the project uses an embedded H2 database)
 
   id   firstName   lastName
   1    "John"      "Doe"
