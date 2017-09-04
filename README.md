@@ -57,3 +57,16 @@
   
   
 You must execute this examples in the same order in order to works
+
+There are endpoints to add and get users also:
+
+  GET:
+  http://localhost:8080/user?id={userId}
+  
+  POST:
+  http://localhost:8080/adduser
+   Body:
+   {
+     firstName:{firstName},
+     lastName:{lastName}
+   }
